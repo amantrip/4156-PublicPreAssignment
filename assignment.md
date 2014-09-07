@@ -19,7 +19,7 @@ Your API will need to answer four questions:
 * You should use the routes file in this repository for your project.
 * To answer question 4 you must record each call to the API.
 You should log this in a database. You may use SQLite or an in memory database such as H2.
-* Your application should handle invalid data such as a community district that does not exist by returning `invalid`.
+* Your application should handle invalid data such as a community district that does not exist by returning `0`.
 * You may use external libraries and they should be included in your deliverable as a managed or unmanaged dependency.
     * Suggestion: `https://github.com/socrata/soda-java`
 * We suggest that you use the simple socrata [filter queries](http://dev.socrata.com/docs/filtering.html)
