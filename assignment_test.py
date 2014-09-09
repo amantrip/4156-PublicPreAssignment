@@ -4,13 +4,17 @@ import csv
 import sys
 import urllib2
 
+
 def query_assignment(url, expected, port=9000):
     '''
     Queries the service at the given url and compares the response to the
     expected parameter.
     '''
     base_url = 'http://localhost:' + str(port) + url
-    ret_val = urllib2.urlopen(base_url).read()
+    try:
+        ret_val = urllib2.urlopen(base_url).read()
+    except urllib2.HTTPError, e:
+        ret_val = e.msg
     return (ret_val == expected, ret_val, expected)
 
 if len(sys.argv) != 2:
