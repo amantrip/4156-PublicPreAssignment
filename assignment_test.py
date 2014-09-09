@@ -14,7 +14,9 @@ def query_assignment(url, expected, port=9000):
     try:
         ret_val = urllib2.urlopen(base_url).read()
     except urllib2.HTTPError, e:
-        ret_val = e.msg
+        ret_val = e.read()
+    except:
+        ret_val = 0
     return (ret_val == expected, ret_val, expected)
 
 if len(sys.argv) != 2:
