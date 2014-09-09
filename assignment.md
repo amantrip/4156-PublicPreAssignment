@@ -19,7 +19,7 @@ Your API will need to answer four questions:
 * You should use the routes file in this repository for your project.
 * To answer question 4 you must record each call to the API.
 You should log this in a database. You may use SQLite or an in memory database such as H2.
-* Your application should handle invalid data such as a community district that does not exist by returning `invalid`.
+* Your application should handle invalid data such as a community district that does not exist by returning `0`.
 * You may use external libraries and they should be included in your deliverable as a managed or unmanaged dependency.
     * Suggestion: `https://github.com/socrata/soda-java`
 * We suggest that you use the simple socrata [filter queries](http://dev.socrata.com/docs/filtering.html)
@@ -45,10 +45,8 @@ We will have a higher passing standard for those wishing to waive the class and 
 * 80 > Score - Class Fail
 
 ## Submission
-You will submit your assignment in a git repository.
-When the TAs grade your assignment they will clone your repository and run your application from there.
-Students enrolled in the class and students on the wait list will receive an email with your credentials and url or your git repository.
-Waiver students should email the TA for credentials and instructions.
+In class students will submit the assignment through CourseWorks.
+Waiver students will submit via email to the TA.
 
 ## Waiver Specific Instructions (Not Class Students)
 Students that have previously taken a software engineering class may be allowed to waive the class.
