@@ -1,7 +1,7 @@
 # COMS W4156 Individual Assignment 1
 
 For this assignment you will be building a very simple HTTP REST API that returns information about the amount of garbage collected throughout New York City during September 2011.
-This data is provided through [NYC Open Data](https://data.cityofnewyork.us/Environment/DSNY-Collection-Tonnages/ewtv-wftx) and can be accessed using the Socrata Open Data (SODA) API using resource key `ewtv-wftx`.
+This data is provided through [NYC Open Data](https://data.cityofnewyork.us/Environment/DSNY-Collection-Tonnages/ebb7-mvp5) and can be accessed using the Socrata Open Data (SODA) API using resource key `ebb7-mvp5`.
 Your API will need to answer four questions:
 
 * How many tons of refuse were collected during the month in a given burough and community district?
@@ -23,7 +23,7 @@ You should log this in a database. You may use SQLite or an in memory database s
 * You may use external libraries and they should be included in your deliverable as a managed or unmanaged dependency.
     * Suggestion: `https://github.com/socrata/soda-java`
 * We suggest that you use the simple socrata [filter queries](http://dev.socrata.com/docs/filtering.html)
-    * To find information about community district 3 in Manhattan you can use the following URL: `http://data.cityofnewyork.us/resource/ewtv-wftx\?communitydistrict\=3\&borough\=Manhattan`
+    * To find information about community district 3 in Manhattan you can use the following URL: `http://data.cityofnewyork.us/resource/ebb7-mvp5\?communitydistrict\=3\&borough\=Manhattan`
 * The python script in this repository will let you test your project.
 The data included will not be the data we use to test the project.
 Note that this is the script but not the same data that we will use to test your projects.
