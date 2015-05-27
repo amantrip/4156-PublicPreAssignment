@@ -1,16 +1,16 @@
 # COMS W4156 Individual Assignment 1
 
-For this assignment you will be building a very simple HTTP REST API that returns information about the amount of garbage collected throughout New York City during September 2011.
+For this assignment you will be building a very simple HTTP REST API that returns information about the amount of garbage collected throughout New York City during 2014 and 2015.
 This data is provided through [NYC Open Data](https://data.cityofnewyork.us/Environment/DSNY-Collection-Tonnages/ebb7-mvp5) and can be accessed using the Socrata Open Data (SODA) API using resource key `ebb7-mvp5`.
-Your API will need to answer four questions:
+Your API will need to answer four questions and round the answers to the nearest integer:
 
-* How many tons of refuse were collected during the month in a given burough and community district?
+* How many tons of refuse were collected during the month in a given burough and community district during January 2014 (2014/01)?
     * `/refuse/<burough>/<community district>/`
-* How many tons of paper were collected during the month in a given burough and community district?
+* How many tons of paper were collected during the month in a given burough and community district during January 2014 (2014/01)?
     * `/paper/<burough>/<community district>/`
-* How many tons of metal, glass, and plastic (MGP) were collected during the month in a given burough and community district?
+* How many tons of metal, glass, and plastic (MGP) were collected during the month in a given burough and community district during January 2014 (2014/01)?
     * `/mgp/<burough>/<community district>/`
-* What is the total amount garbage, refuse + paper + MGP, collected during the month for the community districts that have been queried.
+* What is the total amount garbage, refuse + paper + MGP, collected during the month for the community districts that have been queried during January 2014 (2014/01).
     * `/total/`
 
 ## Technical Requirements
