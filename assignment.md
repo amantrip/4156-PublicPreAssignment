@@ -10,7 +10,7 @@ Your API will need to answer four questions and round the answers to the nearest
     * `/paper/<burough>/<community district>/`
 * How many tons of metal, glass, and plastic (MGP) were collected during the month in a given burough and community district during January 2014 (2014/01)?
     * `/mgp/<burough>/<community district>/`
-* What is the total amount garbage, refuse + paper + MGP, collected during the month for the community districts that have been queried during January 2014 (2014/01).
+* What is the total amount garbage, refuse + paper + MGP, collected during the month for the community districts that have been queried.
     * `/total/`
 
 ## Technical Requirements
